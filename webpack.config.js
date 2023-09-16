@@ -8,7 +8,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "[name].js"
+        filename: "[name].js",
     },
     module: {
         rules: [
@@ -18,11 +18,11 @@ module.exports = {
             }
         ]
     },
-    plugins: [
-        new HtmlWebpackPlugin({
-            title: 'Restraunt Page',
-            filename: 'index.html',
-            template: 'src/template.html',
-        }),
-    ]
+    // plugins: [
+    //     new HtmlWebpackPlugin({
+    //         title: 'Spicy Dosa',
+    //         filename: 'index.html',
+    //         template: 'src/template.html',
+    //     }),
+    // ]
 }
