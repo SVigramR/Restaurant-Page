@@ -3,7 +3,7 @@ function createTitle(id, text) {
     title.setAttribute('id', id);
     const logoText = document.createElement('h1')
     logoText.textContent = text;
-    title.appendChild(text);
+    title.appendChild(logoText);
     return title
 }
 
