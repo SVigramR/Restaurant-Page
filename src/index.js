@@ -1,13 +1,24 @@
 import homePage from './Modules/home.js';
-import aboutPage from './Modules/about.js';
+import menuPage from './Modules/menu.js';
 import contactPage from './Modules/contact.js';
-import header from './Modules/Submodules/header.js';
-import footer from './Modules/Submodules/footer.js';
 
-function init() {
-    header()
-    homePage()
-    footer()
+homePage();
+
+const content = document.querySelector('#content');
+
+content.addEventListener('click', function(event) {
+    if (event.target.id === 'home') {
+        clearPage();
+        homePage();
+    } else if (event.target.id === 'menu') {
+        menuPage();
+    } else if (event.target.id === 'contact') {
+        contactPage();
+    }
+});
+
+function clearPage() {
+    while (content.firstChild) {
+        content.removeChild(content.firstChild);
+    }
 }
-
-init()

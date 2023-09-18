@@ -1,8 +1,10 @@
 import {createPassage, createheading} from './Submodules/text.js'
+import { header, footer } from './Submodules/onload.js';
 
 function homePage() {
+    header()
     const content = document.querySelector('#content')
-    const main = document.createElement('main');
+    const main = document.createElement('main')
 
     const headOne = createheading('head-1', 'Welcome to Spicy Dosa - A Century of Dosa Excellence!')
     main.appendChild(headOne)
@@ -49,6 +51,8 @@ function homePage() {
     main.appendChild(headTen)
 
     content.appendChild(main)
+
+    footer()
 }
 
 export default homePage;
