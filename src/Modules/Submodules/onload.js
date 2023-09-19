@@ -1,11 +1,22 @@
 import homePage from "../home";
 
-function createTitle(id, text) {
+function createTitleAndNav(id, text) {
     const title = document.createElement('header');
     title.setAttribute('id', id);
     const logoText = document.createElement('h1')
     logoText.textContent = text;
     title.appendChild(logoText);
+
+    const nav = document.createElement('nav')
+    nav.setAttribute('id', "nav");
+    const homeBtn = createBtn('home', 'Home')
+    const menuBtn = createBtn('menu', 'Menu')
+    const contactBtn = createBtn('contact', 'Contact')
+    nav.appendChild(homeBtn);
+    nav.appendChild(menuBtn);
+    nav.appendChild(contactBtn);
+    title.appendChild(nav)
+
     return title
 }
 
@@ -16,28 +27,12 @@ function createBtn(id, text) {
     return button
 }
 
-function createNav(id) {
-    const nav = document.createElement('nav')
-    nav.setAttribute('id', id);
-
-    const homeBtn = createBtn('home', 'Home')
-    const menuBtn = createBtn('menu', 'Menu')
-    const contactBtn = createBtn('contact', 'Contact')
-
-    nav.appendChild(homeBtn);
-    nav.appendChild(menuBtn);
-    nav.appendChild(contactBtn);
-    return nav;
-}
 
 function header() {
     const content = document.querySelector('#content')
 
-    const titleContent = createTitle('header', "Spicy Dosa");
+    const titleContent = createTitleAndNav('header', "Spicy Dosa");
     content.appendChild(titleContent)
-
-    const navContent = createNav('nav')
-    content.appendChild(navContent);
 }
 
 function createfooter(id, text) {
