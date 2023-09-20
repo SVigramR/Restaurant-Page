@@ -12,4 +12,12 @@ function createheading(id, text) {
     return heading;
 }
 
-export {createPassage, createheading};
+function createImage(id, source, alt) {
+    const image = document.createElement('img');
+    image.setAttribute('id', id);
+    image.setAttribute('src', source);
+    image.setAttribute('alt', alt);
+    return image;
+}
+
+export {createPassage, createheading, createImage};
