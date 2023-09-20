@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createPassage: () => (/* binding */ createPassage),\n/* harmony export */   createheading: () => (/* binding */ createheading)\n/* harmony export */ });\nfunction createPassage(id, text) {\n    const passage = document.createElement('p');\n    passage.setAttribute('id', id);\n    passage.textContent = text;\n    return passage;\n}\n\nfunction createheading(id, text) {\n    const heading = document.createElement('h2');\n    heading.setAttribute('id', id);\n    heading.textContent = text;\n    return heading;\n}\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/Submodules/text.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createImage: () => (/* binding */ createImage),\n/* harmony export */   createPassage: () => (/* binding */ createPassage),\n/* harmony export */   createheading: () => (/* binding */ createheading)\n/* harmony export */ });\nfunction createPassage(id, text) {\n    const passage = document.createElement('p');\n    passage.setAttribute('id', id);\n    passage.textContent = text;\n    return passage;\n}\n\nfunction createheading(id, text) {\n    const heading = document.createElement('h2');\n    heading.setAttribute('id', id);\n    heading.textContent = text;\n    return heading;\n}\n\nfunction createImage(id, source, alt) {\n    const image = document.createElement('img');\n    image.setAttribute('id', id);\n    image.setAttribute('src', source);\n    image.setAttribute('alt', alt);\n    return image;\n}\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/Submodules/text.js?");
 
 /***/ }),
 
@@ -66,7 +66,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Submodules/text.js */ \"./src/Modules/Submodules/text.js\");\n/* harmony import */ var _Submodules_delete_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Submodules/delete.js */ \"./src/Modules/Submodules/delete.js\");\n\n\n\nfunction menuPage() {\n    (0,_Submodules_delete_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n    const main = document.querySelector('main')\n    \n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuPage);\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Submodules/text.js */ \"./src/Modules/Submodules/text.js\");\n/* harmony import */ var _Submodules_delete_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Submodules/delete.js */ \"./src/Modules/Submodules/delete.js\");\n/* harmony import */ var _Submodules_masala_dosa_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Submodules/masala-dosa.jpg */ \"./src/Modules/Submodules/masala-dosa.jpg\");\n\n\n\n\nfunction menuPage() {\n    (0,_Submodules_delete_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n    const main = document.querySelector('main')\n    \n    const imageOne = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createImage)('image-1', _Submodules_masala_dosa_jpg__WEBPACK_IMPORTED_MODULE_2__, 'Traditional Dosa')\n    main.appendChild(imageOne)\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuPage);\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/menu.js?");
 
 /***/ }),
 
@@ -77,6 +77,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Modules_home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Modules/home.js */ \"./src/Modules/home.js\");\n/* harmony import */ var _Modules_menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Modules/menu.js */ \"./src/Modules/menu.js\");\n/* harmony import */ var _Modules_contact_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Modules/contact.js */ \"./src/Modules/contact.js\");\n\n\n\n\n(0,_Modules_home_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\nconst content = document.querySelector('#content');\n\ncontent.addEventListener('click', function(event) {\n    if (event.target.id === 'home') {\n        clearPage();\n        (0,_Modules_home_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    } else if (event.target.id === 'menu') {\n        (0,_Modules_menu_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n    } else if (event.target.id === 'contact') {\n        (0,_Modules_contact_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n    }\n});\n\nfunction clearPage() {\n    while (content.firstChild) {\n        content.removeChild(content.firstChild);\n    }\n}\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/Modules/Submodules/masala-dosa.jpg":
+/*!************************************************!*\
+  !*** ./src/Modules/Submodules/masala-dosa.jpg ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"072342cccebc850b3a36.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/Submodules/masala-dosa.jpg?");
 
 /***/ })
 
@@ -119,6 +129,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Mod
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -133,6 +155,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Mod
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
