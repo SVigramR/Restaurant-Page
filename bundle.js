@@ -66,7 +66,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Submodules/text.js */ \"./src/Modules/Submodules/text.js\");\n/* harmony import */ var _Submodules_delete_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Submodules/delete.js */ \"./src/Modules/Submodules/delete.js\");\n/* harmony import */ var _Submodules_masala_dosa_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Submodules/masala-dosa.jpg */ \"./src/Modules/Submodules/masala-dosa.jpg\");\n\n\n\n\nfunction menuPage() {\n    (0,_Submodules_delete_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n    const main = document.querySelector('main')\n    \n    const imageOne = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createImage)('image-1', _Submodules_masala_dosa_jpg__WEBPACK_IMPORTED_MODULE_2__, 'Traditional Dosa')\n    main.appendChild(imageOne)\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuPage);\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Submodules/text.js */ \"./src/Modules/Submodules/text.js\");\n/* harmony import */ var _Submodules_delete_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Submodules/delete.js */ \"./src/Modules/Submodules/delete.js\");\n/* harmony import */ var _Submodules_traditional_dosa_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Submodules/traditional-dosa.jpeg */ \"./src/Modules/Submodules/traditional-dosa.jpeg\");\n/* harmony import */ var _Submodules_masala_dosa_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Submodules/masala-dosa.jpg */ \"./src/Modules/Submodules/masala-dosa.jpg\");\n/* harmony import */ var _Submodules_paneer_dosa_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Submodules/paneer-dosa.jpeg */ \"./src/Modules/Submodules/paneer-dosa.jpeg\");\n/* harmony import */ var _Submodules_spinach_cheese_dosa_jpeg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Submodules/spinach-cheese-dosa.jpeg */ \"./src/Modules/Submodules/spinach-cheese-dosa.jpeg\");\n/* harmony import */ var _Submodules_chilli_cheese_dosa_jpeg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Submodules/chilli-cheese-dosa.jpeg */ \"./src/Modules/Submodules/chilli-cheese-dosa.jpeg\");\n/* harmony import */ var _Submodules_ghee_roast_dosa_jpeg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Submodules/ghee-roast-dosa.jpeg */ \"./src/Modules/Submodules/ghee-roast-dosa.jpeg\");\n/* harmony import */ var _Submodules_chocolate_dosa_jpeg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Submodules/chocolate-dosa.jpeg */ \"./src/Modules/Submodules/chocolate-dosa.jpeg\");\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './submodules/chefs-special-question-mark.jpeg'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n\n\n\n\n\n\n\n\n\nfunction menuPage() {\n    (0,_Submodules_delete_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n    const main = document.querySelector('main')\n\n    const paraZero = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createPassage)('para-0', \"Welcome to the heart of our culinary journey. At Spicy Dosa, we bring you an array of dosa creations that showcase the essence of South Indian cuisine, all meticulously prepared with the finest ingredients and a touch of tradition. Explore our menu and get ready to embark on a delightful gastronomic adventure.\")\n    main.appendChild(paraZero)\n\n    const headOne = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createheading)('header-1', \"1. Traditional Dosa\")\n    main.appendChild(headOne)\n    const imageOne = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createImage)('image-1', _Submodules_traditional_dosa_jpeg__WEBPACK_IMPORTED_MODULE_2__, 'Traditional Dosa')\n    main.appendChild(imageOne)\n    const paraOne = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createPassage)('para-1', \"Our homage to the classic dosa. Thin, crispy, and served with a variety of chutneys and sambar.\")\n    main.appendChild(paraOne)\n\n    const headTwo = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createheading)('header-2', \"2. Masala Dosa\")\n    main.appendChild(headTwo)\n    const imageTwo = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createImage)('image-2', _Submodules_masala_dosa_jpg__WEBPACK_IMPORTED_MODULE_3__, \"Masala Dosa\")\n    main.appendChild(imageTwo)\n    const paraTwo = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createPassage)('para-2', \"A beloved favorite, featuring a delicious spiced potato filling wrapped in a golden dosa.\")\n    main.appendChild(paraTwo)\n\n    const headThree = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createheading)('header-3', \"3. Paneer Dosa\")\n    main.appendChild(headThree)\n    const imageThree = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createImage)('image-3', _Submodules_paneer_dosa_jpeg__WEBPACK_IMPORTED_MODULE_4__, \"Paneer Dosa\")\n    main.appendChild(imageThree)\n    const paraThree = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createPassage)('para-3', \"Indulge in the creamy goodness of paneer, blended with aromatic spices, and encased in a dosa.\")\n    main.appendChild(paraThree)\n\n    const headFour = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createheading)('header-4', \"4. Spinach and Cheese Dosa\")\n    main.appendChild(headFour)\n    const imageFour = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createImage)('image-4', _Submodules_spinach_cheese_dosa_jpeg__WEBPACK_IMPORTED_MODULE_5__, \"Spinach and Cheese Dosa\" )\n    main.appendChild(imageFour)\n    const paraFour = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createPassage)('para-4', \"A fusion of flavors that combines the healthiness of spinach with the richness of cheese.\")\n    main.appendChild(paraFour)\n\n    const headFive = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createheading)('header-5', \"5. Chilli Cheese Dosa\")\n    main.appendChild(headFive)\n    const imageFive = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createImage)('image-5', _Submodules_chilli_cheese_dosa_jpeg__WEBPACK_IMPORTED_MODULE_6__, \"Chilli Cheese Dosa\")\n    main.appendChild(imageFive)\n    const paraFive = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createPassage)('para-5', \"For the spice lovers! A zesty combination of green chillies and melted cheese.\")\n    main.appendChild(paraFive)\n\n    const headSix = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createheading)('header-6', \"6. Ghee Roast Dosa\")\n    main.appendChild(headSix)\n    const imageSix = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createImage)('image-6', _Submodules_ghee_roast_dosa_jpeg__WEBPACK_IMPORTED_MODULE_7__, \"Ghee Roast Dosa\")\n    main.appendChild(imageSix)\n    const paraSix = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createPassage)('para-6', \"Experience the heavenly aroma and rich taste of ghee in every bite.\")\n    main.appendChild(paraSix)\n\n    const headSeven = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createheading)('header-7', \"7. Chocolate Dosa\")\n    main.appendChild(headSeven)\n    const imageSeven = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createImage)('image-7', _Submodules_chocolate_dosa_jpeg__WEBPACK_IMPORTED_MODULE_8__, \"Chocolate Dosa\")\n    main.appendChild(imageSeven)\n    const paraSeven = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createPassage)('para-7', \"A sweet twist on tradition, this dosa is a dessert lover's dream.\")\n    main.appendChild(paraSeven)\n\n    const headEight = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createheading)('header-8', \"8. Special Chef's Dosa\")\n    main.appendChild(headEight)\n    const imageEight = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createImage)('image-8', Object(function webpackMissingModule() { var e = new Error(\"Cannot find module './submodules/chefs-special-question-mark.jpeg'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), \"Special Chef's Dosa\")\n    main.appendChild(imageEight)\n    const paraEight = (0,_Submodules_text_js__WEBPACK_IMPORTED_MODULE_0__.createPassage)('para-8', \"Our chef's special creation that changes regularly. Ask your server for today's surprise.\")\n    main.appendChild(paraEight)\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuPage);\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/menu.js?");
 
 /***/ }),
 
@@ -80,6 +80,36 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Mod
 
 /***/ }),
 
+/***/ "./src/Modules/Submodules/chilli-cheese-dosa.jpeg":
+/*!********************************************************!*\
+  !*** ./src/Modules/Submodules/chilli-cheese-dosa.jpeg ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7f9761b891d6ec38d90d.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/Submodules/chilli-cheese-dosa.jpeg?");
+
+/***/ }),
+
+/***/ "./src/Modules/Submodules/chocolate-dosa.jpeg":
+/*!****************************************************!*\
+  !*** ./src/Modules/Submodules/chocolate-dosa.jpeg ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"06d268acce8efe1d8c8b.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/Submodules/chocolate-dosa.jpeg?");
+
+/***/ }),
+
+/***/ "./src/Modules/Submodules/ghee-roast-dosa.jpeg":
+/*!*****************************************************!*\
+  !*** ./src/Modules/Submodules/ghee-roast-dosa.jpeg ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6abce54aa66c10be0e60.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/Submodules/ghee-roast-dosa.jpeg?");
+
+/***/ }),
+
 /***/ "./src/Modules/Submodules/masala-dosa.jpg":
 /*!************************************************!*\
   !*** ./src/Modules/Submodules/masala-dosa.jpg ***!
@@ -87,6 +117,36 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Mod
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"072342cccebc850b3a36.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/Submodules/masala-dosa.jpg?");
+
+/***/ }),
+
+/***/ "./src/Modules/Submodules/paneer-dosa.jpeg":
+/*!*************************************************!*\
+  !*** ./src/Modules/Submodules/paneer-dosa.jpeg ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"4851354793c21e019dcf.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/Submodules/paneer-dosa.jpeg?");
+
+/***/ }),
+
+/***/ "./src/Modules/Submodules/spinach-cheese-dosa.jpeg":
+/*!*********************************************************!*\
+  !*** ./src/Modules/Submodules/spinach-cheese-dosa.jpeg ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"728d2698ca4123b6d65c.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/Submodules/spinach-cheese-dosa.jpeg?");
+
+/***/ }),
+
+/***/ "./src/Modules/Submodules/traditional-dosa.jpeg":
+/*!******************************************************!*\
+  !*** ./src/Modules/Submodules/traditional-dosa.jpeg ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a313d554fcc461255134.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/Modules/Submodules/traditional-dosa.jpeg?");
 
 /***/ })
 
