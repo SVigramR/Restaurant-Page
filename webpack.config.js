@@ -9,6 +9,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "[name].js",
+        clean: true,
     },
     module: {
         rules: [
@@ -22,11 +23,11 @@ module.exports = {
             },
         ]
     },
-    // plugins: [
-    //     new HtmlWebpackPlugin({
-    //         title: 'Spicy Dosa',
-    //         filename: 'index.html',
-    //         template: 'src/template.html',
-    //     }),
-    // ]
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: 'Spicy Dosa',
+            filename: 'index.html',
+            template: 'src/template.html',
+        }),
+    ]
 }

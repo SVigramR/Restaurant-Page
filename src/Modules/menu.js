@@ -71,6 +71,30 @@ function menuPage() {
     main.appendChild(imageEight)
     const paraEight = createPassage('para-8', "Our chef's special creation that changes regularly. Ask your server for today's surprise.")
     main.appendChild(paraEight)
+
+    const headNine = createheading('header-9', "Accompaniments:")
+    main.appendChild(headNine)
+    const paraNine = createPassage('para-9', "Coconut Chutney")
+    paraNine.innerHTML += "<br>Tomato Chutney"
+    paraNine.innerHTML += "<br>Mint Chutney"
+    paraNine.innerHTML += "<br>Sambar"
+    main.appendChild(paraNine)
+
+    const headTen = createheading('header-10', "Beverages:")
+    main.appendChild(headTen)
+    const paraTen = createPassage('para-10', "Fresh Fruit Juices")
+    paraTen.innerHTML += "<br>South Indian Filter Coffee"
+    paraTen.innerHTML += "<br>Masala Chai"
+    main.appendChild(paraTen)
+
+    const headEleven = createheading('header-11', "Visit Spicy Dosa Today!")
+    main.appendChild(headEleven)
+    const paraEleven = createPassage('para-11', "Our menu is designed to cater to diverse tastes, ensuring there's something for everyone. Whether you're a dosa aficionado or trying it for the first time, we guarantee an unforgettable dining experience.")
+    paraEleven.innerHTML += "<br>Join us at Spicy Dosa, where every dosa tells a story of flavor, innovation, and tradition. We look forward to serving you and adding a new chapter to your love for dosas."
+    main.appendChild(paraEleven)
+
+    const headTwelve = createheading('header-12', "Spicy Dosa - Where Tradition Meets Innovation on Your Plate")
+    main.appendChild(headTwelve)
 }
 
 export default menuPage;
