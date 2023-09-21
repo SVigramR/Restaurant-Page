@@ -7,7 +7,7 @@ import spinachCheeseDosa from "./Submodules/spinach-cheese-dosa.jpeg";
 import chilliCheeseDosa from "./Submodules/chilli-cheese-dosa.jpeg";
 import gheeRoastDosa from "./Submodules/ghee-roast-dosa.jpeg";
 import chocolateDosa from "./Submodules/chocolate-dosa.jpeg";
-import chefSpecialDosa from "./submodules/chefs-special-question-mark.jpeg"
+import chefSpecialDosa from "./Submodules/chefs-special-dosa.jpeg";
 
 function menuPage() {
     deleteMainContent();
