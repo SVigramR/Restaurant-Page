@@ -1,0 +1,90 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./Fonts/Norse-Bold.otf);
+    font-weight: 900;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#content {
+    background-color: aquamarine; 
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: black;
+}
+
+header h1 {
+    font-family: norse-bold;
+    color: aqua;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+button {
+    border: none;
+    background-color: black;
+    color: aqua;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+}
+
+main {
+    flex: 1;
+    margin: 2rem;
+}
+
+main h2 {
+    margin: 1rem;
+}
+
+main p {
+    font-size: large;
+    text-align: justify;
+    margin: 0 10rem;
+}
+
+#para-1, #para-2, #para-3, #para-4, #para-5, #para-6, #para-7, #para-8, #para-9, #para-10 {
+    text-align: center;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+}
+
+#passage-2, #passage-3, #passage-4, #passage-5, #passage-6 {
+    text-align: center;
+}
+
+#footer {
+    color: aqua;
+    background-color: black;
+    padding: 10px;
+}

@@ -1,6 +1,7 @@
 import homePage from './Modules/home.js';
 import menuPage from './Modules/menu.js';
 import contactPage from './Modules/contact.js';
+import './styles.css';
 
 homePage();
 
