@@ -61,11 +61,13 @@ main {
 }
 
 main h2 {
-    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
 }
 
 main p {
-    font-size: large;
+    font-size: 1.5rem;
     text-align: justify;
     margin: 0 10rem;
 }
