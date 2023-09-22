@@ -1,13 +1,13 @@
 import { createImage, createPassage, createheading } from "./Submodules/text.js";
 import deleteMainContent from "./Submodules/delete.js";
-import traditionalDosa from "./Submodules/traditional-dosa.jpeg";
-import masalaDosa from "./Submodules/masala-dosa.jpg";
-import paneerDosa from "./Submodules/paneer-dosa.jpeg";
-import spinachCheeseDosa from "./Submodules/spinach-cheese-dosa.jpeg";
-import chilliCheeseDosa from "./Submodules/chilli-cheese-dosa.jpeg";
-import gheeRoastDosa from "./Submodules/ghee-roast-dosa.jpeg";
-import chocolateDosa from "./Submodules/chocolate-dosa.jpeg";
-import chefSpecialDosa from "./Submodules/chefs-special-dosa.jpeg";
+import traditionalDosa from "../Images/traditional-dosa.jpeg";
+import masalaDosa from "../Images/masala-dosa.jpg";
+import paneerDosa from "../Images/paneer-dosa.jpeg";
+import spinachCheeseDosa from "../Images/spinach-cheese-dosa.jpeg";
+import chilliCheeseDosa from "../Images/chilli-cheese-dosa.jpeg";
+import gheeRoastDosa from "../Images/ghee-roast-dosa.jpeg";
+import chocolateDosa from "../Images/chocolate-dosa.jpeg";
+import chefSpecialDosa from "../Images/chefs-special-dosa.jpeg";
 
 function menuPage() {
     deleteMainContent();

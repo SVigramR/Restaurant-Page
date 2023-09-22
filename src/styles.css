@@ -77,8 +77,9 @@ main p {
 }
 
 img {
-    width: 10rem;
-    height: 10rem;
+    width: 17rem;
+    height: 15rem;
+    margin: 1rem;
 }
 
 #passage-2, #passage-3, #passage-4, #passage-5, #passage-6 {
